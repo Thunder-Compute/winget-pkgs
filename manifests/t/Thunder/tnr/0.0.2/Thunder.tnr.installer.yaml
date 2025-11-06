@@ -12,7 +12,7 @@ Installers:
       - RelativeFilePath: tnr.exe
         PortableCommandAlias: tnr
     InstallerUrl: https://github.com/Thunder-Compute/thunder-cli/releases/download/v0.0.2/tnr_0.0.2_windows_arm64.zip
-    InstallerSha256: c7a303089809c7375e3e5eb61b6d613f1a459f980f96eed23d4689ad1963872b
+    InstallerSha256: 739271328457471e192d85b672116a9cee39271c72d0fdf5af738803c444c3ce
     UpgradeBehavior: uninstallPrevious
   - Architecture: x64
     NestedInstallerType: portable
@@ -20,7 +20,7 @@ Installers:
       - RelativeFilePath: tnr.exe
         PortableCommandAlias: tnr
     InstallerUrl: https://github.com/Thunder-Compute/thunder-cli/releases/download/v0.0.2/tnr_0.0.2_windows_amd64.zip
-    InstallerSha256: 01a0a28332a210914ab7de7fa7eeb5985fef3bd4b1b8f282d08b4329ed18750b
+    InstallerSha256: f053a04916c9db77b0271e1ba750d9a977a8d8e01fdb4544a5cbae4aed93846b
     UpgradeBehavior: uninstallPrevious
 ManifestType: installer
 ManifestVersion: 1.10.0
