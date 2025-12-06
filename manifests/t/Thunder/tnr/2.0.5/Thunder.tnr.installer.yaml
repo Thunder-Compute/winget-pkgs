@@ -4,7 +4,7 @@ PackageIdentifier: Thunder.tnr
 PackageVersion: 2.0.5
 InstallerLocale: en-US
 InstallerType: zip
-ReleaseDate: "2025-11-19"
+ReleaseDate: "2025-12-05"
 Installers:
   - Architecture: arm64
     NestedInstallerType: portable
@@ -12,7 +12,7 @@ Installers:
       - RelativeFilePath: tnr.exe
         PortableCommandAlias: tnr
     InstallerUrl: https://github.com/Thunder-Compute/thunder-cli/releases/download/v2.0.5/tnr_2.0.5_windows_arm64.zip
-    InstallerSha256: 408013cd7994b57d355d441adf3938d7165ce54885985831224fb19b949480d2
+    InstallerSha256: ba279c2ea60060ad19f68863e35f0ef91a19d957c11b60fe6e34cdf421443ec1
     UpgradeBehavior: uninstallPrevious
   - Architecture: x64
     NestedInstallerType: portable
@@ -20,7 +20,7 @@ Installers:
       - RelativeFilePath: tnr.exe
         PortableCommandAlias: tnr
     InstallerUrl: https://github.com/Thunder-Compute/thunder-cli/releases/download/v2.0.5/tnr_2.0.5_windows_amd64.zip
-    InstallerSha256: f5fd6d6897ee78809660073143ec7cfca78b60a02d02036d7f749bac4fb8c980
+    InstallerSha256: 0bc4d99ec88fd00c9bb0cc9c4220990941f35be5bb2eaad8f75175fa2be99d81
     UpgradeBehavior: uninstallPrevious
 ManifestType: installer
 ManifestVersion: 1.10.0
